@@ -51,8 +51,8 @@ public class StartApp {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "pixel_2_xl");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("appPackage", "com.velocity.frequentflyer");
-        capabilities.setCapability("appActivity", "com.velocity.frequentflyer.ui.login.LoginActivity");
+        capabilities.setCapability("appPackage", "com.android.calculator2");
+        capabilities.setCapability("appActivity", "com.android.calculator2.MainActivity");
 
         //Build Appium Service
         builder = new AppiumServiceBuilder();
